@@ -73,7 +73,7 @@ class Node {
   
     if (userList.search(username)) {
         alert("Iniciando sesión con: " + username);
-       window.location.href= "inicio.html";
+       window.location.href= "conInicio.html";
     } else {
       alert("Credenciales inválidas. Por favor, inténtalo de nuevo.");
     }
